@@ -1,0 +1,23 @@
+/* Teste de Parágrafo*/
+.container {
+    background-color: bisque;
+    margin-top: 10px;
+}
+
+.row {
+    border: 5px solid;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col,
+.col-6,
+.col-4 {
+    border: 2px dashed red;
+    height: 100%;
+}
+
+#largura-maxima {
+    max-width: 400px;
+}

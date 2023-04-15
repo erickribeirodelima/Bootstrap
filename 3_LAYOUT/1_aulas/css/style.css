@@ -63,8 +63,10 @@ h1 {
 }
 
 .col,
+.col-4,
+.col-4,
 .col-6,
-.col-4 {
+.col-3 {
     border: 2px dashed red;
     height: 100%;
     margin: 0;
@@ -72,4 +74,21 @@ h1 {
 
 #largura-limitada {
     max-width: 400px;
+}
+
+/* Alinhamento vertical */
+.vertical {
+    height: 250px;
+    border-color: coral;
+    margin-top: 50px;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.col-6,
+.col-3 {
+    height: 50px;
+    
 }
